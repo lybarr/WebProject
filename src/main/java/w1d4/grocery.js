@@ -1,27 +1,3 @@
-/*
-Javascript ECMAScript-
-we'll havea full week of JS in a while..
-for now let's just stick to the very basics:
-javascript has close to nothing to do with java
-it was named that for marketing reasons
-
-what's different?
-1- javascript runs in a browser and java cannot do this easily
-2- javascript is interpreted, and not compiled - this means that it runs as-is
-and does not need to be compiled like java
-3- javascript is loosely typed, unlike java where we need to assign types
-    a- this means that functions can also be used as variables and passed around and such
-        i- i am using functions/methods interchangeable, but the difference is that
-            we only use the word method when the method is tied to an object
-4- javascript barely cares about errors
-5- javascript does not require a main method (execution just starts from the top of file)
-6- console.log instead of print
-
- */
-
-/*
-my first step: grab what we need from the html file
- */
 
 console.log("JS file loaded from html");
 let userInput = document.getElementById("userInput");
